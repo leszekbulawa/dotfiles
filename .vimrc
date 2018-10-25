@@ -28,6 +28,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,6 +49,12 @@ syntax on
 set nu
 
 " NERDTree conf
-autocmd vimenter * NERDTree
+" Auto open
+" autocmd vimenter * NERDTree
+" Ctrl-n enable
 map <C-n> :NERDTreeToggle<CR>
+" Show hidden files
 let NERDTreeShowHidden=1
+
+" CtrlP conf
+"
