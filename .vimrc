@@ -11,7 +11,6 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
-Plug 'powerline/powerline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
 
@@ -23,10 +22,5 @@ call plug#end()
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeMapOpenInTab='\r'
-"
-" Powerline
-set laststatus=2
-set t_Co=256
-set showtabline=2
 
 autocmd Filetype yaml setlocal ts=2 sw=2 sts=0 expandtab"
