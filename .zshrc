@@ -64,6 +64,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,3 +101,9 @@ source $ZSH/oh-my-zsh.sh
 # Fuzz search
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
+
+# go workspace
+export GOPATH=~/go
+
+# flutter path
+export PATH=$PATH:/home/mynameismud/dev/flutter/bin
