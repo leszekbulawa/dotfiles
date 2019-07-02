@@ -99,8 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # Fuzz search
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # go workspace
 export GOPATH=~/go
