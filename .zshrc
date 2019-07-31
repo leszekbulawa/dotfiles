@@ -106,3 +106,6 @@ export GOPATH=~/go
 
 # flutter path
 export PATH=$PATH:/home/mynameismud/dev/flutter/bin
+
+# default editor
+export EDITOR=vim
