@@ -109,3 +109,11 @@ export PATH=$PATH:/home/mynameismud/dev/flutter/bin
 
 # default editor
 export EDITOR=vim
+
+# adb
+if [ -d "$HOME/platform-tools" ] ; then
+  export PATH="$HOME/platform-tools:$PATH"
+fi
+
+# git commit gpg signing
+export GPG_TTY=$(tty)
