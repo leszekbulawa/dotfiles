@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # Fuzz search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 
 # go workspace
 export GOPATH=~/go
@@ -117,3 +119,4 @@ fi
 
 # git commit gpg signing
 export GPG_TTY=$(tty)
+
