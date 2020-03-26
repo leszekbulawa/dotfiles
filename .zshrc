@@ -120,3 +120,5 @@ fi
 # git commit gpg signing
 export GPG_TTY=$(tty)
 
+# kubectl
+alias k=kubectl
